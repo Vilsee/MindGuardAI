@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-primary: #2bd4bd;
+  --color-primary-foreground: #0f1729;
+  --color-background: #0f1729;
+  --color-foreground: #f8fafc;
+  --color-card: #121b31;
+  --color-card-foreground: #f8fafc;
+  --color-muted: #1d283a;
+  --color-muted-foreground: #94a3b8;
+  --color-border: #222f44;
+  --color-input: #222f44;
+  --color-ring: #2bd4bd;
+  --color-accent: #2bd4bd1a;
+  --color-accent-foreground: #2bd4bd;
+  --color-destructive: #7c1d1d;
+
+  --radius: 0.75rem;
+}
+
+@layer base {
+  body {
+    color: var(--color-foreground);
+    background-color: var(--color-background);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body ::selection {
+    background-color: #2bd4bd33;
+    color: #2bd4bd;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.025em;
+  }
+
+  * {
+    border-color: var(--color-border);
+  }
+}
+
+@layer components {
+  .glass-panel {
+    background-color: #121b3199;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(24px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  }
+
+  .gradient-text {
+    background: linear-gradient(to right, #2bd4bd, #60a5fa, #2bd4bd);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient 8s infinite;
+  }
+
+  .glow {
+    box-shadow: 0 0 20px -5px var(--color-primary);
+  }
+}
+
+@keyframes gradient {
+  0% { background-position: 0%; }
+  50% { background-position: 100%; }
+  100% { background-position: 0%; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
