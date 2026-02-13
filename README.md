@@ -234,7 +234,7 @@ npm install
 npm run dev
 ```
 
-The app will be available at **http://localhost:5173/**
+The app will be available at **http://localhost:5173/** or visit the live deployment at **[mindguard-ai-eight.vercel.app](https://mindguard-ai-eight.vercel.app)**
 
 ### Production Build
 
