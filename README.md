@@ -12,7 +12,7 @@
 
 **A privacy-first AI system that detects subtle behavioral changes through on-device neural scanning — identifying mental health risks 2–4 weeks before clinical symptoms appear.**
 
-[🚀 Live Demo](https://mindguard-ai-eight.vercel.app) · [📖 How It Works](#-how-it-works) · [🛠️ Tech Stack](#%EF%B8%8F-tech-stack) · [📊 Architecture](#-system-architecture)
+[🚀 Live Demo](https://mindguard-ai-brown.vercel.app) · [📖 How It Works](#-how-it-works) · [🛠️ Tech Stack](#%EF%B8%8F-tech-stack) · [📊 Architecture](#-system-architecture)
 
 </div>
 
@@ -234,7 +234,7 @@ npm install
 npm run dev
 ```
 
-The app will be available at **http://localhost:5173/** or visit the live deployment at **[mindguard-ai-eight.vercel.app](https://mindguard-ai-eight.vercel.app)**
+The app will be available at **http://localhost:5173/** or visit the live deployment at **[mindguard-ai-brown.vercel.app](https://mindguard-ai-brown.vercel.app)**
 
 ### Production Build
 
