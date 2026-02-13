@@ -12,7 +12,7 @@
 
 **A privacy-first AI system that detects subtle behavioral changes through on-device neural scanning — identifying mental health risks 2–4 weeks before clinical symptoms appear.**
 
-[🚀 Live Demo](https://mind-guard-visual--viilseekshandil.replit.app) · [📖 How It Works](#-how-it-works) · [🛠️ Tech Stack](#%EF%B8%8F-tech-stack) · [📊 Architecture](#-system-architecture)
+[🚀 Live Demo](https://mindguard-ai-eight.vercel.app) · [📖 How It Works](#-how-it-works) · [🛠️ Tech Stack](#%EF%B8%8F-tech-stack) · [📊 Architecture](#-system-architecture)
 
 </div>
 
